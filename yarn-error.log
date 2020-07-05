@@ -1,0 +1,40 @@
+Arguments: 
+  /Users/zhongchubing/.nvm/versions/node/v10.16.0/bin/node /Users/zhongchubing/.nvm/versions/node/v10.16.0/bin/yarn install
+
+PATH: 
+  /Library/Frameworks/Python.framework/Versions/3.6/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Frameworks/Python.framework/Versions/3.6/bin:/Users/zhongchubing/.nvm/versions/node/v10.16.0/bin
+
+Yarn version: 
+  1.21.1
+
+Node version: 
+  10.16.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: EINVAL: invalid argument, unlink '/Users/doc/code/project/vite/node_modules/@vue/compiler-core/node_modules/estree-walker'
+
+npm manifest: 
+  {
+    "name": "vite",
+    "version": "0.0.0",
+    "scripts": {
+      "dev": "vite",
+      "build": "vite build"
+    },
+    "dependencies": {
+      "vue": "^3.0.0-beta.15"
+    },
+    "devDependencies": {
+      "vite": "^1.0.0-beta.3",
+      "@vue/compiler-sfc": "^3.0.0-beta.15"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
